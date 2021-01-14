@@ -1,0 +1,20 @@
+{
+  "name": "gridsome-sheets",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "gh-pages": "^3.1.0",
+    "gridsome": "^0.7.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.1.0"
+  }
+}
